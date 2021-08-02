@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  color: rgba(55, 75, 86, 1);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: absolute;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+  z-index: 1000;
+}
+
+.container .contactInfo {
+  position: absolute;
+  top: 35%;
+  width: 65%;
+  height: 100%;
+  margin-left: 225px;
+  background: rgb(29, 29, 29);
+  z-index: 1;
+  padding: 35px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px rgba(0, 90, 140, 1);
+}
+
+.container .contact-map {
+  position: absolute;
+  padding: 440px 110px 40px;
+  padding-left: 55px;
+  margin-left: 130px;
+  width: 80%;
+  background: #374b56;
+  box-shadow: 0 20px 25px rgba(55, 75, 86, 1);
+  top: 380px;
+}
+.container .contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.container .contact-map p {
+  color: #fff;
+  text-align: justify;
+  text-indent: 25px;
+  margin-top: 25px;
+}
+
+.container .contactInfo h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container .contactInfo p {
+  color: #fff;
+  text-align: justify;
+  text-indent: 25px;
+  margin-top: 25px;
+  font-size: 0.9rem;
+}
+
+.container .contactInfo ul.sci {
+  position: relative;
+  display: flex;
+}
+
+.container .contactInfo ul.sci li a {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.contactInfo .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #000;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.contactInfo .social > a i {
+  color: #fff;
+}
+
+.contactInfo .social > a:hover {
+  opacity: 0.9;
+}
+
+.contactInfo .social {
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.container .contact-form .btn {
+  align-items: right;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  border: 1px solid #bcbcbc;
+  outline: none;
+  background: transparent;
+}
+
+.container .contact-form .form-control {
+  border-radius: 10px;
+  font-family: "Robot", sans-serif;
+  border: 1px solid #bcbcbc;
+  opacity: 1.5;
+  outline: none;
+  background: transparent;
+  margin: 1em 0;
+}
+
+h4 {
+  color: #fff;
+  text-align: justify;
+}
+
+.more {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300vh;
+}
+h2 {
+  text-align: center;
+  color: blue;
+}
+h5 {
+  color: black;
+  font-weight: bolder;
+}

@@ -138,3 +138,55 @@ h3 {
 .container.contact-form.x .z .y {
   color: #fff;
 }
+
+/* code by kushboo */
+/*Frequently Asked Questions */
+.asked_heading_section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b537b;
+  text-align: center;
+  margin: 0;
+}
+.asked_heading_section p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  margin: 0;
+  padding: 12px 0px 55px 0px;
+}
+.asked_content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.asked_content h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.asked_img {
+  float: left;
+}
+.asked_section p {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+}
+.asked_section i {
+  font-size: 40px;
+  color: #005a8c;
+}
+.asked_content {
+  padding-left: 60px;
+}
+.question_section {
+  padding-bottom: 26px;
+}
+#more {
+  display: none;
+}

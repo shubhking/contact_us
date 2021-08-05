@@ -228,5 +228,134 @@
         </div>
       </div>
     </section>
+    <br />
+    <br />
+    <br />
+
+    <!-- code by kushbooo -->
+    <b>By kushboo</b>
+    <section class="c details">
+      <div class="asked_heading_section">
+        <h2>Frequently Asked Questions</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          <br />industry. Lorem Ipsum has been the industry'
+        </p>
+      </div>
+      <div class="container">
+        <div class="row question_section">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="asked_section">
+              <div class="asked_img">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+              </div>
+              <div class="asked_content">
+                <h4>Lorem Ipsum is simply dummy</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry'
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="asked_section">
+              <div class="asked_img">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+              </div>
+              <div class="asked_content">
+                <h4>Lorem Ipsum is simply dummy</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry'
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row question_section">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="asked_section">
+              <div class="asked_img">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+              </div>
+              <div class="asked_content">
+                <h4>Lorem Ipsum is simply dummy</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry'
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="asked_section">
+              <div class="asked_img">
+                <i class="fa fa-question-circle" aria-hidden="true"></i>
+              </div>
+              <div class="asked_content">
+                <h4>Lorem Ipsum is simply dummy</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry'
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span id="dots"></span
+        ><span id="more">
+          <div class="row question_section">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="asked_section">
+                <div class="asked_img">
+                  <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+                <div class="asked_content">
+                  <h4>Lorem Ipsum is simply dummy</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry'
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <div class="asked_section">
+                <div class="asked_img">
+                  <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </div>
+                <div class="asked_content">
+                  <h4>Lorem Ipsum is simply dummy</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry'
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+        <button onclick="myFunction()" id="myBtn">more</button>
+      </div>
+    </section>
   </body>
+
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
 </html>

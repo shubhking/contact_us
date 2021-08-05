@@ -1,0 +1,140 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./banner.png");
+  height: 55%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: relative;
+  top: 50%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.faq-para {
+  text-align: justify;
+  width: 90%;
+}
+
+.container .contact-info {
+  position: relative;
+  background: url(./img.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  height: 35em;
+  margin-top: 5em;
+  width: 56em;
+  margin-left: 15em;
+  display: flex;
+  box-shadow: 0 5px 20px rgba(0, 23, 35, 0.76);
+  z-index: 9;
+}
+
+.container .contact-map {
+  position: relative;
+  padding: 20em 6em 5em;
+  display: flex;
+  margin-top: -15em;
+  background: linear-gradient(180deg, #374b56 -8.36%, #005a8c 100%);
+  width: 68em;
+  height: 36em;
+  margin-left: 9em;
+  box-shadow: 0 5px 20px rgba(9, 51, 73, 0.76);
+}
+
+.container .contact-info h2 {
+  color: #fff;
+  background: transparent;
+}
+
+.container .contact-info p {
+  color: #fff;
+  text-align: justify;
+  text-indent: 25px;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  background: transparent;
+}
+
+.contact-info .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #000;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.contact-info .social > a i {
+  color: #fff;
+}
+
+.contact-info .social > a:hover {
+  opacity: 0.9;
+}
+
+.contact-info .social {
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.container .contact-form .btn {
+  align-items: right;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  outline: none;
+  background: transparent;
+  margin: 0em 30px;
+}
+
+.container .contact-form .form-control {
+  font-family: "Robot", sans-serif;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  opacity: 1.5;
+  outline: none;
+  background: transparent;
+  margin: 1em -10px;
+}
+h4 {
+  color: #fff;
+  text-align: justify;
+}
+
+.container .contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+.container .contact-map p {
+  color: #fff;
+  text-align: justify;
+  text-indent: 25px;
+  margin-top: 25px;
+}
+h3 {
+  color: #0b537b;
+}
+.container.contact-form.x .z .y {
+  color: #fff;
+}
